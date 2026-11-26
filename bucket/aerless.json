@@ -1,0 +1,45 @@
+{
+    "version": "0.1.0",
+    "description": "Aerless, picture tool and coding assistant for the terminal",
+    "homepage": "https://aerless.io",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/aerless-ai/aerless-code/releases/download/v0.1.0/aerless-windows-x64.exe",
+                "https://github.com/aerless-ai/aerless-code/releases/download/v0.1.0/aerless-code-windows-x64-baseline.exe"
+            ],
+            "hash": [
+                "2cba060aeebbcdba8b80768f656d326a1a5d70dc270881c33e8f28ab349b1240",
+                "1631bdf37c9e791f3c4aaaea8b09ffeebd10ac9efc44d1c304d1d1d6e4c47db0"
+            ]
+        }
+    },
+    "bin": [
+        ["aerless-windows-x64.exe", "aerless"],
+        ["aerless-code-windows-x64-baseline.exe", "aerless-code"]
+    ],
+    "checkver": {
+        "github": "https://github.com/aerless-ai/aerless-code"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/aerless-ai/aerless-code/releases/download/v$version/aerless-windows-x64.exe",
+                    "https://github.com/aerless-ai/aerless-code/releases/download/v$version/aerless-code-windows-x64-baseline.exe"
+                ],
+                "hash": [
+                    {
+                        "url": "https://github.com/aerless-ai/aerless-code/releases/download/v$version/SHA256SUMS",
+                        "regex": "$sha256\\s+$basename"
+                    },
+                    {
+                        "url": "https://github.com/aerless-ai/aerless-code/releases/download/v$version/SHA256SUMS",
+                        "regex": "$sha256\\s+$basename"
+                    }
+                ]
+            }
+        }
+    }
+}
