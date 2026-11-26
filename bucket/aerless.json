@@ -1,17 +1,17 @@
 {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Aerless, picture tool and coding assistant for the terminal",
     "homepage": "https://aerless.io",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.3/aerless-windows-x64.exe",
-                "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.3/aerless-code-windows-x64-baseline.exe"
+                "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.4/aerless-windows-x64.exe",
+                "https://github.com/aerless-ai/aerless-code/releases/download/v0.2.4/aerless-code-windows-x64-baseline.exe"
             ],
             "hash": [
-                "8f067f131e907f824f59e1897b40268d1136676338861b47322ba446bb01cbd2",
-                "52155dd2fcb16ea0f0c608b37e9e261f9a51e9059028ebf7e772db1e3b0ac1d5"
+                "1f7cad8c386eb083a8d3122bb16a9c1c3b3c6082f4f4484ccdf8697b520d8343",
+                "f5db5e9144a3b9b00c99547c38387e6cd760a8c7ab950378a670adaa7938d7b6"
             ]
         }
     },
